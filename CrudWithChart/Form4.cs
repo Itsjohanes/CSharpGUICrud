@@ -288,5 +288,7 @@ namespace CrudWithChart
             tampilkanData();
             clear();
         }
+
+       
     }
 }

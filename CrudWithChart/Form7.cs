@@ -81,7 +81,7 @@ namespace CrudWithChart
                 int total = Convert.ToInt32(row.Cells["total"].Value);
                 grandTotal += total;
             }
-            label4.Text = grandTotal.ToString();
+            label9.Text = grandTotal.ToString();
 
         }
 
