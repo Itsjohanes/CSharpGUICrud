@@ -154,7 +154,7 @@ namespace CrudWithChart
                 cmd.ExecuteNonQuery();
                 conn.Close();
                 //tunjukan kembalian
-                int kembalian = Convert.ToInt32(textBox2.Text) - Convert.ToInt32(label4.Text);
+                int kembalian = Convert.ToInt32(textBox2.Text) - Convert.ToInt32(label9.Text);
                 MessageBox.Show("Kembalian: " + kembalian.ToString());
             }
             else if ((comboBox2.SelectedItem.ToString() == "credit"))
