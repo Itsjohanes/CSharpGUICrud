@@ -247,10 +247,7 @@ namespace CrudWithChart
 
 
             }
-            //memasukan gambar
-            string directoryPath = @"C:\images\";
-            string fileName = Path.GetFileName(label4.Text);
-            pictureBox1.Image = Image.FromFile(Path.Combine(directoryPath, fileName));
+           
 
 
         }
